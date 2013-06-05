@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Facebook Page Debugger",
+  "description": "Quickly sends the current page to the Facebook Debugger Tool, which tells Facebook to clear it's cache for your page and scrape everything again.",
+  "version": "1.0",
+
+  "permissions": [
+    "contextMenus",
+    "notifications",
+    "https://developers.facebook.com/"
+  ],
+
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
