@@ -13,5 +13,11 @@
 
   "background": {
     "scripts": ["background.js"]
+  },
+
+  "icons": {
+    "16" : "fb-16.png",
+    "128" : "fb-128.png",
+    "48" : "fb-48.png"
   }
 }
