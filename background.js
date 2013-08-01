@@ -10,8 +10,8 @@ var FBDebugger = {
 		FBDebugger.page_url = url;
 
 		req.open("GET", request_url, true);
-	    req.onload = FBDebugger.onLoad;
-	    req.onerror = function(e){
+	        req.onload = FBDebugger.onLoad;
+	        req.onerror = function(e){
 	    	console.log(e);
 	    };
 	    req.send(null);
